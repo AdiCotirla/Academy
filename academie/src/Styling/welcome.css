@@ -1,0 +1,67 @@
+.welcome
+{
+    background-image: url(../assets/background.webp);
+    height: calc(100vh - 100px);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.text-welcome-active
+{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+}
+.text-welcome-inactive
+{
+    visibility: hidden;
+    width: 40%;
+}
+.descriptie-welcome
+{
+    font-size: 3rem;
+    color: white;
+}
+.welcome-button
+{
+    border: none;
+    width: 250px;
+    height: 100px;
+    font-size: larger;
+    background-color: rgba(255, 255, 255, 0.29);
+    border-radius: 15px;
+    color: white;
+    margin-top: 10px;
+    transition: 350ms;
+}
+.welcome-button:hover
+{
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.8); 
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.8);
+    background-color: rgba(255, 255, 255, 0.39);
+
+}
+.home-welcome
+{
+    width: 60%;
+    height: 100%;
+    background-image: url(../assets/home.png);
+    background-position: center;
+}
+.copii-welcome
+{
+    width: 60%;
+    height: 100%;
+    background-image: url(../assets/kids.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
